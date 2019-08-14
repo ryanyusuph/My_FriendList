@@ -1,6 +1,5 @@
-package ryan.com.google.projek_uts;
+package ryan.com.google.projek_uas;
 
-import android.os.Handler;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
@@ -8,17 +7,17 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-import ryan.com.google.projek_uts.Fragment.HomeFragment;
-import ryan.com.google.projek_uts.Fragment.KontakFragment;
-import ryan.com.google.projek_uts.Fragment.TemanFragment;
+import ryan.com.google.projek_uas.Fragment.HomeFragment;
+import ryan.com.google.projek_uas.Fragment.KontakFragment;
+import ryan.com.google.projek_uas.Fragment.TemanFragment;
 
 public class MainActivity extends AppCompatActivity {
     /*
       NIM    : 10116109
       Nama   : Ryan Yusup Hendriawan
       Kelas  : IF-3
-      Tanggal Pembuatan : 20 - 21 Mei 2019
-    */
+      Tanggal Penulisan : 8 - 14 Agustus 2019
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -1,4 +1,4 @@
-package ryan.com.google.projek_uts;
+package ryan.com.google.projek_uas;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

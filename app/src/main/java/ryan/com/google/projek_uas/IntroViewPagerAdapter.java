@@ -1,4 +1,4 @@
-package ryan.com.google.projek_uts;
+package ryan.com.google.projek_uas;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -12,12 +12,11 @@ import android.widget.TextView;
 import java.util.List;
 
 public class IntroViewPagerAdapter extends PagerAdapter {
-
     /*
       NIM    : 10116109
       Nama   : Ryan Yusup Hendriawan
       Kelas  : IF-3
-      Tanggal Pembuatan : 20 - 21 Mei 2019
+      Tanggal Penulisan : 8 - 14 Agustus 2019
      */
 
     Context mContext ;

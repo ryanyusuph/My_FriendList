@@ -1,4 +1,4 @@
-package ryan.com.google.projek_uts;
+package ryan.com.google.projek_uas;
 
 import android.content.Intent;
 import android.support.design.widget.TabLayout;
@@ -6,9 +6,6 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
-import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -17,11 +14,11 @@ import java.util.List;
 
 public class Viewpager extends AppCompatActivity {
 
-        /*
+    /*
       NIM    : 10116109
       Nama   : Ryan Yusup Hendriawan
       Kelas  : IF-3
-      Tanggal Pembuatan : 20 - 21 Mei 2019
+      Tanggal Penulisan : 8 - 14 Agustus 2019
      */
 
     private ViewPager screenPager;
@@ -32,16 +29,11 @@ public class Viewpager extends AppCompatActivity {
     Button btnGetStarted ;
     TextView tvSkip;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_viewpager);
-/*
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-                WindowManager.LayoutParams.FLAG_FULLSCREEN);
-*/
+
 
         setContentView(R.layout.activity_viewpager);
 
@@ -51,7 +43,7 @@ public class Viewpager extends AppCompatActivity {
          btnNext = findViewById(R.id.btn_next);
          btnGetStarted = findViewById(R.id.btn_get_started);
          tabIndicator = findViewById(R.id.tab_indicator);
-          tvSkip = findViewById(R.id.tv_skip);
+         tvSkip = findViewById(R.id.tv_skip);
 
         final List<ScreenItem> mList = new ArrayList<>();
         mList.add(new ScreenItem("Profile "," Berisi Profil Lengkap beserta Foto Profil ",R.drawable.profile));
@@ -107,9 +99,10 @@ public class Viewpager extends AppCompatActivity {
         btnGetStarted.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent mainActivity = new Intent(getApplicationContext(),MainActivity.class);
+                Intent mainActivity = new Intent(getApplicationContext(),LoginActivity.class);
                 startActivity(mainActivity);
                 finish();
+
             }
         });
 

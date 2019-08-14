@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     xmlns:layout="http://schemas.android.com/apk/res-auto"
     android:background="@color/abu"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent" >
 
     <TextView
         android:id="@+id/judul"
@@ -13,19 +14,34 @@
         android:text="List Teman "
         android:textSize="25sp"
         android:textStyle="bold|italic"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="12dp"
         android:gravity="center_horizontal"
-
         />
-
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="350dp"
         android:layout_below="@id/judul"
-        android:layout_marginTop="10dp"/>
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"/>
 
-    </RelativeLayout>
+    <Button
+        android:id="@+id/btn_link_tambah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recycler_view"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/mybutton"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:text="Tambah Data " />
+
+
+</RelativeLayout>
 
 

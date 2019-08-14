@@ -1,4 +1,4 @@
-package ryan.com.google.projek_uts;
+package ryan.com.google.projek_uas;
 
 import org.junit.Test;
 

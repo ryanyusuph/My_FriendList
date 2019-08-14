@@ -1,4 +1,4 @@
-package ryan.com.google.projek_uts.Fragment;
+package ryan.com.google.projek_uas.Fragment;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -11,15 +11,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import ryan.com.google.projek_uts.R;
+import ryan.com.google.projek_uas.R;
 
 public class KontakFragment extends Fragment {
     /*
-          NIM    : 10116109
-          Nama   : Ryan Yusup Hendriawan
-          Kelas  : IF-3
-          Tanggal Pembuatan : 20 - 21 Mei 2019
-         */
+      NIM    : 10116109
+      Nama   : Ryan Yusup Hendriawan
+      Kelas  : IF-3
+      Tanggal Penulisan : 8 - 14 Agustus 2019
+     */
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
